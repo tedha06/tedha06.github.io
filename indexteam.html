@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Roboto:wght@400;500;700&family=Titan+One&display=swap" rel="stylesheet">
+    <script defer src="indexteam.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    <nav class="topnav">
+        <h1>BLUE MINDS</h1>
+        <!-- Navigation links (hidden by default) -->
+        <div class="links" id="myLinks">
+            <a href="bookings.html">Bookings</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="stories.html">Stories</a>
+            <a href="about.html">About</a>
+        </div>
+        <!-- "Hamburger menu" -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+    <section>
+        <div class="card-container">
+            <div class="card">
+              <img src="anxiety.jpg" alt="Anxiety">
+              <h2>Anxiety</h2>
+              <p>Anxiety is a feeling of unease, such as worry or fear, that can be mild or severe. It is a normal human emotion, but if it becomes overwhelming and interferes with daily activities, it may be a sign of an anxiety disorder.</p>
+            </div>
+            
+            <div class="card">
+              <img src="loneliness.jpeg" alt="Loneliness">
+              <h2>Loneliness</h2>
+              <p>Loneliness is a feeling of sadness or distress because of a lack of social interaction or companionship. It can be a temporary feeling or a chronic condition that may lead to depression or other mental health problems.</p>
+            </div>
+            
+            <div class="card">
+              <img src="dipolar.jpg" alt="Bipolar Disorder">
+              <h2>Bipolar Disorder</h2>
+              <p>Bipolar disorder is a mental health condition characterized by extreme mood swings that range from mania (an elevated or irritable mood) to depression (a low mood). It can be a lifelong condition that requires ongoing treatment.</p>
+            </div>
+            
+            <div class="card">
+              <img src="ocd.jpg" alt="OCD">
+              <h2>OCD</h2>
+              <p>Obsessive-compulsive disorder (OCD) is a mental health condition that causes unwanted, repetitive thoughts (obsessions) and behaviors (compulsions) that can interfere with daily life. It can be treated with therapy and medication.</p>
+            </div>
+            
+            <div class="card">
+              <img src="ptsd.jpg" alt="PTSD">
+              <h2>PTSD</h2>
+              <p>Post-traumatic stress disorder (PTSD) is a mental health condition that can develop after experiencing or witnessing a traumatic event, such as combat, sexual assault, or a natural disaster. Symptoms can include flashbacks, nightmares, and anxiety.</p>
+            </div>
+          </div>
+          <div class="mood-box">
+            <h3>How are you feeling today?</h3>
+            <div class="mood-options">
+              <button class="mood-button happy" data-mood="happy">😀</button>
+              <button class="mood-button neutral" data-mood="neutral">😐</button>
+              <button class="mood-button sad" data-mood="sad">😔</button>
+            </div>
+            <p class="selected-mood">You haven't selected a mood yet.</p>
+            <button class="submit-button">Submit</button>
+          </div>
+    </section>
+    <footer>
+        <p>HIT226 Sprint 3&4</p>
+    </footer>
+</body>
+</html>
